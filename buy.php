@@ -146,7 +146,7 @@ if(isset($_POST['buy'])){
   $rate=$_POST['rate'];
   $address=$_POST['address'];
   
-  $ins="insert into purchase(username,mobile,email,address,paper,money,status) values('$name','$mobile','$email','$address','$paper','$rate',0)";
+  $ins="insert into purchase(username,mobile,email,address,paper,money,status) values('$name','$mobile','$email','$address','$paper','$rate',2)";
   $exe=mysqli_query($con,$ins);
 
   if($exe){

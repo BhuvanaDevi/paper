@@ -86,7 +86,7 @@ if($no) {
         else if ($row1[$i][7] == '0') { ?>
         <div class="card-body text-center">Stock Not There., I Will Contact You Later</div>
    <?php }
-   else{
+    else if ($row1[$i][7] == '2') {
      ?>
           <div class="card-body text-center">Notifications Not Found</div>
    <?php
